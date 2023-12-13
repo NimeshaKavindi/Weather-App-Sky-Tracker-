@@ -1,20 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../assests/weather.jpg'); /* Replace 'path/to/your/image.jpg' with your image URL */
+    background-image: url('../assests/background.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
     
   }
 
 
 .container {
-    width: 500px;
+    width: 450px;
     height: 630px;
     margin: auto;
     margin-top: 75px;
-    border-radius: 12px;
-    background-image: linear-gradient(180deg, #FBFE5E 0%, #0C7AEF 100%);
+    border-radius: 15px;
+    background-image: linear-gradient(180deg, #1DCDA5 0%, #461A32 100%);
   }
   
   .top-bar {
@@ -93,12 +93,13 @@ body {
   }
   
   .text {
-    font-size: 14px; /* Adjust text size */
+    font-size: 20px; 
+    font-weight: 400;
   }
   
   .humidity,
   .wind-speed {
-    font-size: 18px; /* Adjust text size */
+    font-size: 16px;
   }
   .input-container {
     display: flex;
@@ -106,10 +107,9 @@ body {
   }
   
   .input-container .cityInput {
-    width: 282px; /* Adjust width as needed */
-    /* ... (existing styles) ... */
+    width: 282px; 
   }
   
   .input-container .search-icon {
-    margin-left: 20px; /* Adjust spacing between input and search icon */
+    margin-left: 20px; 
   }
