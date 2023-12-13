@@ -11,6 +11,12 @@ import './weatherApp.css'
 
 
 const WeatherApp = () => {
+
+    let api_key = "c700b511e6d72e8fb13fa6a0a3fa146f";
+
+    const search =() =>{
+        
+    }
     return (
       <div className='container'>
         <div className='top-bar'>
