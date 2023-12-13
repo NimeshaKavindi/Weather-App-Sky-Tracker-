@@ -127,8 +127,7 @@ body {
     }
   
     .top-bar input {
-      width: 100%; 
-      max-width: 80%; 
+      width:200px;
       height: 40px;
       font-size: 14px;
       padding-left: 20px;
