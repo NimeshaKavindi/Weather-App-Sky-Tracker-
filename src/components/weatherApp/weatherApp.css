@@ -113,3 +113,25 @@ body {
   .input-container .search-icon {
     margin-left: 20px; 
   }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 90%; 
+      height: auto; 
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+  
+    .top-bar {
+      padding-top: 20px;
+    }
+  
+    .top-bar input {
+      width: 80%;
+      height: 40px;
+      font-size: 14px;
+      padding-left: 20px;
+    }
+  
+  
+  }
